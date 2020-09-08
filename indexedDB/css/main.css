@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito Sans";
+}
+
+form {
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background: rgb(77, 77, 77);
+    color: white;
+    font-size: 20px;
+}
+
+form .input-group {
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarea {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    padding: 10px 20px ;
+    cursor: pointer;
+    background: rgb(91, 37, 192);
+    color: white;
+}
+
+.tarea p {
+    width: 50%;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+div.retro a i {
+    font-size: 30px;
+  }
+  
+  div.retro {
+    padding: 1%;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 300000;
+    background: rgba(20, 24, 80, 0.966);
+    transition: .4s;
+  }
+  
+  div.retro:hover {
+    padding: 1% 3%;
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB</title>
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+    <h1 class="center">IndexedDB</h1>
+    <form action="">
+        <p>Ordenador de tareas:</p>
+        <div class="input-group">
+            <label for="0">Nombre de la tarea:</label>
+            <input name="tarea" type="text" id="0">
+        </div>
+        <div class="input-group">
+            <label for="1">Prioridad:</label>
+            <select name="prioridad" id="">
+                <option selected value="">Selecciona una prioridad</option>
+                <option value="alta">Alta</option>
+                <option value="media">Media</option>
+                <option value="baja">Baja</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <button type="submit">Agregar</button>
+        </div>
+    </form>
+    <div class="tarea"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

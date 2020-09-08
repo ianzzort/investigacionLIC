@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,700);
+*, *:after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box; boxsizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background: rgba(49,48,51,1);
+	background: -moz-linear-gradient(left, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(49,48,51,1)),
+	color-stop(50%, rgba(75,70,77,1)), color-stop(100%, rgba(43,41,39,1)));
+	background: -webkit-linear-gradient(left, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	background: -o-linear-gradient(left, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	background: -ms-linear-gradient(left, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	background: linear-gradient(to right, rgba(49,48,51,1) 0%, rgba(75,70,77,1) 50%,
+	rgba(43,41,39,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313033',
+	endColorstr='#2b2927', GradientType=1 );
+	font: 400 15px 'Raleway',sans-serif;
+}
+h1 {
+	color: hsl(163, 70%, 55%);
+	text-align: center;
+	font: Bold 3.2em 'Bitter';
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0px #eee, 3px 3px 0px #707070;
+}
+h2, h3 {
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3),
+	1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+	opacity: 0.4; 
+	font: Bold 3em 'Bitter';
+}
+.color-1 {
+	background: #0e83cd;
+}
+.color-5 {
+	background: #cd4436;
+}
+.container > section {
+	margin: 0 auto;
+	padding: 1em 1em;
+	text-align: center;
+}
+nav input {
+	display: inline-block;
+	color: #fff;
+	font: normal, 1em, 'Raleway',Georgie,Times;
+	margin: 15px 25px;
+	position: relative; textdecoration: none; texttransform: uppercase;
+	letter-spacing: 1px;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+	background-color: black;
+	border: none;
+	padding: 25px, 5px, 25px, 5px;
+	cursor: pointer;
+}
+
+
+div.retro a i {
+	font-size: 30px;
+  }
+  
+  div.retro {
+	padding: 1%;
+	font-family: 'Source Sans Pro', sans-serif;
+	position: fixed;
+	top: 0;
+	z-index: 300000;
+	background: rgba(20, 24, 80, 0.966);
+	transition: .4s;
+  }
+  
+  div.retro:hover {
+	padding: 1% 3%;
+  }

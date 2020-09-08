@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="retro"><a href="javascript:history.back();"><i class="fad fa-arrow-to-left"></i></a></div>
+  <h1 class="center">localStorage</h1>
+    <div class="app">
+        <div class="content">
+
+            <h3>Agregar Alumno</h3>
+    
+            <div>
+              <form action="/action_page.php">
+                <label for="fname">Nombre Alumno:</label>
+                <input type="text" id="nombre" name="firstname" placeholder="Nombre..">
+            
+                <label for="lname">Edad</label>
+                <input type="number" id="edad" name="lastname" placeholder="Edad...">
+            
+                <label for="lname">Correo</label>
+                <input type="email" id="correo" name="lastname" placeholder="Correo...">
+            
+                
+                <label for="country">Materia a cursar</label>
+                <select id="materia" name="country">
+                  <option value="LP1">LP1</option>
+                  <option value="LIC">LIC</option>
+                  <option value="MD">MD</option>
+                </select>
+              
+                <input type="submit" class="btnSubmit" value="Submit">
+              </form>
+            </div>
+            
+        </div>
+
+        <div class="tabla">
+            
+    <table id="alumnos">
+        <thead>
+            <tr>
+
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Correo</th>
+                <th>Materia</th>
+              </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
